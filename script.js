@@ -47,8 +47,8 @@ function create()
 
     this.add.image(960,2160,"background");
     this.add.image(960,2160,"plateforme");
-    //player = this.physics.add.sprite (320,4000, "player");
-    player = this.physics.add.sprite (230,400, "player");
+    player = this.physics.add.sprite (320,4000, "player");
+    //player = this.physics.add.sprite (230,400, "player");
     player.setScale(0.30);
     
     const map = this.add.tilemap("map");
@@ -202,8 +202,8 @@ function update ()
 
 function tp_1(){
     console.log("tp");
-    //player.setPosition(960,4200);
-    player.setPosition(890,400);
+    player.setPosition(960,4200);
+    //player.setPosition(890,400);
     player.setAccelerationX(0);
     player.setVelocityX(0);
     this.cameras.main.setBounds(640,0,640,4320);
@@ -211,8 +211,8 @@ function tp_1(){
 
 function tp_2(){
     console.log("tp");
-    //player.setPosition(1600,4100);
-    player.setPosition(1490,1611);
+    player.setPosition(1600,4100);
+    //player.setPosition(1490,1611);
     player.setAccelerationX(0);
     player.setVelocityX(0);
     this.cameras.main.setBounds(1280,0,640,4320);
