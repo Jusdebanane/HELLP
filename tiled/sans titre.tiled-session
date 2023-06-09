@@ -12,11 +12,11 @@
             "scaleInEditor": 1
         },
         "map.tmx": {
-            "scale": 0.75,
+            "scale": 1.5,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 1786.6666666666667,
-                "y": 4138
+                "x": 1985.3333333333333,
+                "y": 218.33333333333331
             }
         },
         "map.tmx#placeholder": {
